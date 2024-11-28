@@ -60,6 +60,10 @@ pip install opencv-python numpy matplotlib
 
 3. **伪彩色映射**：使用不同的颜色来表示频率强度，使得频谱中的细节和信息更加直观
 
+## 学习资源
+
+- [维基百科：傅里叶变换](https://zh.wikipedia.org/wiki/%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2)
+- [PyTorch官方教程](https://pytorch.org/tutorials/)
 ---
 
 欢迎反馈问题或建议！ 😊
