@@ -19,7 +19,7 @@
 pip install opencv-python numpy matplotlib
 ```
 
-## 功能说明
+## 说明
 
 ### 1. **傅里叶变换**：
    - 图像从空间域（原始图像）转换到频率域
@@ -29,7 +29,7 @@ pip install opencv-python numpy matplotlib
    - 计算傅里叶变换结果的幅度谱，反映图像中不同频率成分的强度
    
 ### 3. **伪彩色映射**：
-   - 为了更好地展示幅度谱，使用伪彩色映射（如 `jet`）来可视化频率强度
+   - 为了更好地展示幅度谱，使用伪彩色映射（`jet`）来可视化频率强度
 
 ### 4. **对数缩放**：
    - 通过对数缩放（`log`）增强频谱的对比度，让低强度的高频成分能够更加显著
@@ -37,7 +37,7 @@ pip install opencv-python numpy matplotlib
 ## 使用方法
 
 ### 输入：
-   - 一张图像文件的路径（支持常见格式，如 JPEG、PNG 等）
+   - 一张图像文件的路径（支持常见格式，如JPEG、PNG等）
    
 ### 输出：
    - 显示原始图像与其傅里叶变换后的幅度谱
@@ -62,7 +62,7 @@ pip install opencv-python numpy matplotlib
 
 ## 学习资源
 
-- [维基百科：傅里叶变换](https://zh.wikipedia.org/wiki/%E5%82%85%E9%87%8C%E5%8F%B6%E5%8F%98%E6%8D%A2)
+- [知乎：幅度谱](https://zhuanlan.zhihu.com/p/632149690)
 - [PyTorch官方教程](https://pytorch.org/tutorials/)
 ---
 
