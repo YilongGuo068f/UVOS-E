@@ -3,7 +3,7 @@
 
 ## 依赖库
 
-- PyTorch 1.10+
+- PyTorch
 - numpy
 - tqdm
 
