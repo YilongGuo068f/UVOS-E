@@ -1,4 +1,4 @@
-# 用Python实现EMA
+# README：用Python实现EMA
 
 ## 依赖库
 
