@@ -75,7 +75,7 @@ c. 模型的训练日志会输出在控制台，最终模型保存在`outputs/`�
 
 ## 学习资源
 
-- [论文：Pseudo-Labeling and Self-training](https://arxiv.org/abs/1905.13736)
+- [半监督学习---伪标签](https://blog.csdn.net/qq_45809323/article/details/142460406)
 - [PyTorch官方教程](https://pytorch.org/tutorials/)
 
 ---
