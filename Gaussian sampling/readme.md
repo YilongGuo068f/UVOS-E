@@ -21,10 +21,10 @@ samples = np.random.normal(mean, std_dev, num_samples)
 ```python
 plt.hist(samples, bins=30, density=True, alpha=0.6, color='g')
 ```
-`plt.hist` 用于绘制样本数据的直方图
-`bins=30`：将样本数据分为30个区间
-`density=True`：将直方图的高度标准化为概率密度
-`alpha=0.6`：设置直方图的透明度
+`plt.hist` 用于绘制样本数据的直方图。
+`bins=30`：将样本数据分为30个区间。
+`density=True`：将直方图的高度标准化为概率密度。
+`alpha=0.6`：设置直方图的透明度。
 `color='g'`：设置直方图的颜色为绿色
 
 ### 3. 绘制理论高斯分布的概率密度函数
@@ -34,8 +34,8 @@ x = np.linspace(xmin, xmax, 100)
 p = (1 / (std_dev * np.sqrt(2 * np.pi))) * np.exp(-0.5 * ((x - mean) / std_dev) ** 2)
 plt.plot(x, p, 'k', linewidth=2)
 ```
-生成高斯分布的概率密度函数并绘制在直方图上
-`np.linspace(xmin, xmax, 100)` 生成100个x值，这些值用于绘制概率密度函数
+生成高斯分布的概率密度函数并绘制在直方图上。
+`np.linspace(xmin, xmax, 100)` 生成100个x值，这些值用于绘制概率密度函数。
 `p` 计算每个x值对应的概率密度
 
 ### 4. 设置图表标题和标签
