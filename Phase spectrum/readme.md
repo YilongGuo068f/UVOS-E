@@ -3,7 +3,6 @@
 
 ## 依赖库
 
-- Python 3.x
 - OpenCV
 - NumPy
 - Matplotlib
@@ -14,7 +13,7 @@
 pip install opencv-python numpy matplotlib
 ```
 
-## 使用说明
+## 使用方法
 
 ### 1. 读取图像
 
