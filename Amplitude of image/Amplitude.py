@@ -11,11 +11,11 @@ def show_color_amplitude_spectrum(image_path):
 
     #应用傅里叶变换
     f = np.fft.fft2(image)
-    fshift = np.fft.fftshift(f)  #将低频部分移到图像中心
+    fshift = np.fft.fftshift(f) #将低频部分移到图像中心
 
     #计算幅度谱
     magnitude_spectrum = np.abs(fshift)
-    magnitude_spectrum_log = 20 * np.log(magnitude_spectrum + 1)  #对数缩放
+    magnitude_spectrum_log = 20 * np.log(magnitude_spectrum + 1) #对数缩放
 
     #使用伪彩色映射显示幅度谱
     plt.figure(figsize=(12, 6))
@@ -25,7 +25,7 @@ def show_color_amplitude_spectrum(image_path):
     plt.axis('off')
 
     plt.subplot(1, 2, 2)
-    plt.imshow(magnitude_spectrum_log, cmap='jet')  #使用伪彩色映射
+    plt.imshow(magnitude_spectrum_log, cmap='jet') #使用伪彩色映射
     plt.title('Magnitude Spectrum (Color)')
     plt.axis('off')
 
